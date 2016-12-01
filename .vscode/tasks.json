@@ -4,6 +4,9 @@
     "version": "0.1.0",
     "command": "ruby",
     "isShellCommand": true,
-    "args": ["${workspaceRoot}/koans/path_to_enlightenment.rb"],
-    "showOutput": "always"
+    "args": ["path_to_enlightenment.rb"],
+    "showOutput": "always",
+    "options": {
+        "cwd": "${workspaceRoot}/koans/"
+    }
 }
